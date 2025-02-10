@@ -1,0 +1,19 @@
+{
+    "name": "tedem/mybb-template-helper",
+    "description": "A composer package to help you edit MyBB templates locally with your favorite code editor.",
+    "keywords": ["tedem", "mybb", "theme", "template", "composer", "package"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Medet Erdal",
+            "email": "hello@tedem.dev"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "bin": ["bin/mybb-template-helper"]
+}

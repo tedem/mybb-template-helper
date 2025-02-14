@@ -56,9 +56,9 @@ Specifying a custom template will only load the template you have selected. No c
 
 **Note:** You need to run the command after each change. You can use looping software to automate it.
 
-## Contributing
+## Contributing Guidelines
 
-Please do not contribute as the documentation for this project is not complete.
+Please review our [contributing guidelines](https://github.com/tedem/tedem/blob/main/docs/CONTRIBUTING.md) to learn about our submission process, coding standards, and more.
 
 ## Versioning
 

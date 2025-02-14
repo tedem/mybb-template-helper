@@ -4,6 +4,14 @@ declare(strict_types=1);
 
 namespace tedem\MyBBTemplateHelper;
 
+use const JSON_PRETTY_PRINT;
+
+use MyBB;
+
+use function count;
+use function define;
+use function in_array;
+
 define('IN_MYBB', 1);
 
 require_once './global.php';
@@ -130,7 +138,7 @@ final class TemplateHelper
 
                     echo "\033[32m[MyBB Template Helper] Template '{$templateName}' updated in database.\033[0m\n";
                 } else {
-                    $mybb = new \MyBB();
+                    $mybb = new MyBB();
 
                     $this->db->insert_query('templates', [
                         'title' => $templateName,

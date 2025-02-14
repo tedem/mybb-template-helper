@@ -10,8 +10,14 @@
             "email": "hello@tedem.dev"
         }
     ],
+    "scripts": {
+        "pint": "pint"
+    },
     "require": {
         "php": "^8.2"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.20"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

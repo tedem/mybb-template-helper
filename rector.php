@@ -17,4 +17,4 @@ return RectorConfig::configure()
         earlyReturn: true,
         strictBooleans: true,
     )
-    ->withPhpSets(php80: true);
+    ->withPhpSets();
